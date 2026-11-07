@@ -1,0 +1,22 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Database records and local archives
+/database_dump.sql
+*.tar.gz
+*.zip
+*.backup
+*.dump
+
+# Generated dependencies, logs and editor files
+/vendor/
+/node_modules/
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
